@@ -1,0 +1,19 @@
+[project]
+name = "movies-buddy"
+version = "0.1.0"
+description = "Movies Buddy workshop agent"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.12.4",
+    "google-generativeai>=0.8.5",
+    "openai>=1.109.1",
+    "openai-agents>=0.3.3",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "wikipedia-api>=0.6.0",
+]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
