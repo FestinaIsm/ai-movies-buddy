@@ -52,12 +52,6 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -e .
 ```
 
-### Verify Setup
-```bash
-python run_agent.py
-# Try: "Tell me about Breaking Bad"
-```
-
 ### Run the Movies Buddy CLI
 ```bash
 uv run agent_runner.py
