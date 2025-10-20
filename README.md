@@ -95,7 +95,8 @@ Tell me about the TV series 'My Neighbor's Cat is Actually an Alien'
 
 **File:** `movies_buddy/system_prompt.py`
 
-**Task:** Instruct agent to use TVDB MCP Server tool to search for metadata using the provided TVDB API(movies, directors, genres, etc).
+**Task:** 
+Instruct agent to use TVDB MCP Server tool to search for metadata using the provided TVDB API(movies, directors, genres, etc). And, uncomment the mcp_servers line in movies_buddy_agent.py agent creation to use the MCP server tools. 
 
 **Test Queries:**
 ```
