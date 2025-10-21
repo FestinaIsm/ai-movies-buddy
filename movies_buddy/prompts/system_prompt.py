@@ -8,7 +8,7 @@
 
 # TODO: Workshop Task 2
 # The agent currently only uses get_series_movies_summary. Update the instructions
-# to tell the agent to ALSO use the TVDB MCP Server for discovering titles and metadata.
+# to tell the agent to ALSO use the TVDB MCP Server (hint: find the tool name in the server) for discovering titles and metadata.
 
 MAIN_INSTRUCTIONS = """
 You are a TV & Movie Recommendation Assistant.
@@ -19,6 +19,7 @@ Base your answers strictly on tool results, never on your own knowledge.
 
 Primary tools:
 - `get_series_movies_summary` — fetch official Wikipedia summaries for specific titles
+
 
 ## Behavior
 1. **Infer and act** — When the user clearly mentions a movie or series title (e.g., “What are the main actors of Spongebob”), do not ask clarifying questions. 
